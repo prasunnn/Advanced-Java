@@ -5,9 +5,9 @@ public class DialogNum {
     public static void main (String [] args){
         String num1, num2, num3;
         int a,b,c,greatest;
-        num1= JOptionPane.showInputDialog("Enter first number");        
-        num2= JOptionPane.showInputDialog("Enter second number");
-        num3= JOptionPane.showInputDialog("Enter third number");
+        num1= JOptionPane.showInputDialog("Enter first number: ");        
+        num2= JOptionPane.showInputDialog("Enter second number: ");
+        num3= JOptionPane.showInputDialog("Enter third number: ");
         
         a= Integer.parseInt(num1);        
         b= Integer.parseInt(num2);
